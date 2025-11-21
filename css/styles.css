@@ -32,9 +32,15 @@ h4 {
     font-weight: 400;
 }
 
+h5{
+    font-size: 3rem;
+    font-weight: 400; 
+}
+
 /* BUTTONS */
 
 .btn {
+    display: block;
     height: 6.6rem;
     width: 29.4rem;
     border-radius: 10px;
@@ -240,6 +246,7 @@ header h1 {
 
 .text-left {
     text-align: left;
+    margin-bottom: 15rem;
 }
 
 .width40 {
@@ -254,7 +261,7 @@ header h1 {
     justify-content: center;
     margin: 0 auto;
     max-width: 170rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .features-card {
@@ -279,5 +286,49 @@ header h1 {
     font-size: 2rem;
     font-weight: 400;
     max-width: 36rem;
+}
 
+.features button{
+    margin: 0 auto;
+}
+
+/* --------------------------- */
+/* EXPERTS SECTION */
+/* --------------------------- */
+.width60{
+    max-width: 60rem;
+    margin-bottom: 12rem;
+}
+
+.experts-main-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 160rem;
+    margin-bottom: 12rem;
+}
+
+.experts-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 5rem 13rem 22rem 13rem;
+    background: #55515144;
+    flex: 0 0 calc(29% - 3rem);
+    align-items: center;
+    gap: 4rem;
+}
+
+.experts-card p{
+    font-size: 2rem;
+    color: #D9D7E6;
+}
+
+.avatar{
+    width: 16rem;
+    height: 16rem;
+    background: #fff;
+    border-radius: 50%;
 }
