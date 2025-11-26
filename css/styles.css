@@ -22,6 +22,7 @@ input,
 textarea {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
+    font-weight: 500;
     color: #B6B6CE;
 }
 
@@ -101,7 +102,7 @@ h5 {
 /* --------------------------- */
 
 header {
-    padding: 4rem 5rem 0 5rem;
+    padding: 4rem 5rem 8rem 5rem;
 }
 
 .header-container-row {
@@ -126,22 +127,22 @@ header img {
 /* --------------------------- */
 /* HERO SECTION */
 /* --------------------------- */
-.hero {
-    padding: 0 5rem;
-}
 
 .hero-container-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 180rem;
+    margin: 0 auto;
+    gap: 5rem;
 }
 
 .hero-content-col {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 90rem;
+    flex: 0 0 calc(50% - 2rem);
 }
 
 .hero-content-col p {
@@ -167,10 +168,9 @@ header img {
 }
 
 .hero-container-row img {
-    max-width: 100rem;
     width: 100%;
     height: auto;
-    flex-shrink: 1;
+    display: block;
 }
 
 /* --------------------------- */
@@ -188,6 +188,8 @@ header img {
     background: linear-gradient(to right, #ccffb3, #5755F9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 /* --------------------------- */
@@ -273,6 +275,7 @@ header img {
     padding: 3rem 3rem;
     background: #55515144;
     gap: 2.3rem;
+    height: 30rem;
 }
 
 .features-card img {
@@ -288,6 +291,8 @@ header img {
     font-size: 2rem;
     font-weight: 400;
     max-width: 36rem;
+    color: #D9D7E6;
+    line-height: 3rem;
 }
 
 .features button {
@@ -365,14 +370,22 @@ header img {
 
 .form-element input {
     flex: 1;
-    padding: 1rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
     border-radius: 2rem;
     background-color: #25222B;
     border-color: transparent;
 }
 
+input[type="email"] {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: #b6b6ce68;
+}
+
 .form textarea {
-    padding: 1rem;
+    padding: 1.5rem;
+    padding-left: 3rem;
     border-radius: 2rem;
     background-color: #25222B;
     border-color: transparent;

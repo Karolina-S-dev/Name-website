@@ -1,0 +1,11 @@
+/* laptops and big tablets - 1024px - 1200px */
+@media only screen and (max-width: 1200px) {
+
+html,body {
+        font-size: 8px;
+    }
+
+    .hero-container-row {
+        flex-direction: column;
+
+}}
