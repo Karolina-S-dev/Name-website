@@ -125,7 +125,7 @@ header img {
 }
 
 /* --------------------------- */
-/* HERO SECTION */
+/* SECTION HERO */
 /* --------------------------- */
 
 .hero-container-row {
@@ -174,7 +174,7 @@ header img {
 }
 
 /* --------------------------- */
-/* PROMO SECTION */
+/* SECTION PROMO */
 /* --------------------------- */
 
 .promo p {
@@ -193,13 +193,13 @@ header img {
 }
 
 /* --------------------------- */
-/* SUB-HERO SECTION */
+/* SECTION SUB-HERO */
 /* --------------------------- */
 
 /* nothing */
 
 /* --------------------------- */
-/* TESTIMONIAL SECTION */
+/* SECTION TESTIMONIAL */
 /* --------------------------- */
 
 .testimonial-div-row {
@@ -249,7 +249,7 @@ header img {
 }
 
 /* --------------------------- */
-/* FEATURES SECTION */
+/* SECTION FEATURES */
 /* --------------------------- */
 
 .features-left {
@@ -302,7 +302,7 @@ header img {
 }
 
 /* --------------------------- */
-/* EXPERTS SECTION */
+/* SECTION EXPERTS */
 /* --------------------------- */
 
 .experts-margin {
@@ -343,7 +343,7 @@ header img {
 }
 
 /* --------------------------- */
-/* CONTACT-US SECTION */
+/* SECTION CONTACT-US */
 /* --------------------------- */
 
 .text-center {
@@ -406,7 +406,7 @@ input[type="email"] {
 }
 
 /* --------------------------- */
-/* FOOTER SECTION */
+/* FOOTER */
 /* --------------------------- */
 footer {
     padding: 5rem 3rem;
