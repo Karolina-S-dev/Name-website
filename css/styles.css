@@ -18,16 +18,8 @@ body {
 /* REUSABLE */
 /* --------------------------- */
 
-input,
-textarea {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    color: #B6B6CE;
-}
-
 .section {
-    padding: 10rem 3rem;
+    padding: 6rem 3rem;
 }
 
 .section-container-col {
@@ -57,11 +49,6 @@ h2 {
 
 h3 {
     font-size: 5.2rem;
-    font-weight: 400;
-}
-
-h4 {
-    font-size: 3rem;
     font-weight: 400;
 }
 
@@ -222,6 +209,16 @@ header img {
     padding: 6rem 0;
 }
 
+.logo-ubrania-1,
+.logo-ubrania-2 {
+    max-width: 13rem;
+    max-height: 2rem;
+}
+
+.logo-ubrania-1 {
+    opacity: 0;
+}
+
 .testimonial-div-col p {
     font-size: 2rem;
 }
@@ -236,16 +233,6 @@ header img {
 .CEO-image-row img {
     max-width: 5rem;
     max-height: 5rem;
-}
-
-.logo-ubrania-1,
-.logo-ubrania-2 {
-    max-width: 13rem;
-    max-height: 2rem;
-}
-
-.logo-ubrania-1 {
-    opacity: 0;
 }
 
 /* --------------------------- */
@@ -285,7 +272,9 @@ header img {
     max-height: 5.5rem;
 }
 
-.features-card h4 {
+h4 {
+    font-size: 3rem;
+    font-weight: 400;
     max-width: 43rem;
 }
 
@@ -323,23 +312,25 @@ header img {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 5rem 13rem 22rem 13rem;
     background: #55515144;
-    flex: 0 0 calc(29% - 3rem);
+    flex: 0 0 calc(30% - 3rem);
     align-items: center;
+    justify-content: center;
     gap: 4rem;
+    aspect-ratio: 1/2;
+    max-height: 45rem;       
+}
+
+.avatar {
+    width: 12rem;
+    height: 12rem;
+    background: #fff;
+    border-radius: 50%;
 }
 
 .experts-card p {
     font-size: 2rem;
     color: #D9D7E6;
-}
-
-.avatar {
-    width: 16rem;
-    height: 16rem;
-    background: #fff;
-    border-radius: 50%;
 }
 
 /* --------------------------- */
@@ -398,6 +389,14 @@ input[type="email"] {
     resize: none;
 }
 
+input,
+textarea {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #B6B6CE;
+}
+
 .form button {
     display: flex;
     align-items: center;
@@ -409,6 +408,7 @@ input[type="email"] {
 /* --------------------------- */
 /* FOOTER */
 /* --------------------------- */
+
 footer {
     padding: 5rem 3rem;
 }
@@ -426,8 +426,9 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20rem;
-}
+    width: 100%;
+    max-width: 130rem;
+    }
 
 .footer-connect-service-col {
     display: flex;

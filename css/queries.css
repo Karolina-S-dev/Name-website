@@ -1,11 +1,63 @@
 /* laptops and big tablets - 1024px - 1200px */
 @media only screen and (max-width: 1200px) {
 
-html,body {
-        font-size: 8px;
+    html,
+    body {
+        font-size: 9px;
+    }
+
+    .section {
+        padding: 5rem 3rem;
     }
 
     .hero-container-row {
         flex-direction: column;
+    }
 
-}}
+    .hero-container-row img {
+        max-width: 80rem;
+    }
+
+    .promo p {
+        margin: 10rem auto;
+    }
+
+    .form {
+        margin-bottom: 13rem;
+    }
+
+    .footer-connect-service-row {
+        max-width: 75rem;
+    }
+
+    h5 {
+        font-size: 2.5rem;
+    }
+
+    .footer-connect-service-col p {
+        font-size: 1.5rem;
+    }
+
+    .footer-item {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* small mobile - phones*/
+@media only screen and (max-width: 400px) {
+    .testimonial-div-row {
+        flex-direction: column;
+        gap: 2rem;
+        }
+
+    
+.testimonial-div-col {
+padding: 2rem 2rem;
+}
+
+
+.form-element {
+    display: flex;
+    flex-direction: column;}}
