@@ -382,7 +382,8 @@ header img {
 input[type="email"] {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
-    text-decoration-color: #b6b6ce68;
+    -webkit-text-decoration-color: #b6b6ce68;
+            text-decoration-color: #b6b6ce68;
 }
 
 .form textarea {
