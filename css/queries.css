@@ -11,7 +11,7 @@
     }
 
     .section {
-        padding: 6rem 3rem;
+        padding: 5rem 3rem;
     }
 
     .hero-container-row {
@@ -23,7 +23,16 @@
     }
 
     .hero-buttons {
-        gap: 2rem;
+        gap: 3rem;
+    }
+
+    .hero-buttons .btn-outline,
+    .hero-buttons .btn-full {
+        height: 7.5rem;
+    }
+
+    .promo p {
+        margin: 8rem auto;
     }
 
     .form {
@@ -32,6 +41,22 @@
 
     .footer-connect-service-row {
         max-width: 70rem;
+    }
+
+    .features-left {
+        margin-bottom: 10rem;
+    }
+
+    .experts-margin {
+        margin-bottom: 10rem;
+    }
+
+    .experts-main-row {
+        margin-bottom: 8rem;
+    }
+
+    .text-center {
+        margin-bottom: 8rem;
     }
 }
 
@@ -78,11 +103,6 @@
         flex: 0 0 calc(32% - 3rem);
     }
 
-    .avatar {
-        width: 11rem;
-        height: 11rem;
-    }
-
     .form {
         margin-bottom: 12rem;
     }
@@ -103,6 +123,10 @@
     .footer-top {
         margin-bottom: 3rem;
     }
+
+    .experts-margin {
+        margin-bottom: 8rem;
+    }
 }
 
 /* mobile - phones */
@@ -122,7 +146,7 @@
     }
 
     .section {
-        padding: 4rem 3rem;
+        padding: 3rem 3rem;
     }
 
     .hero-content-col p {
@@ -139,16 +163,15 @@
 
     .features-left {
         text-align: left;
-        margin-bottom: 12rem;
-    }
-
-    .avatar {
-        width: 9rem;
-        height: 9rem;
+        margin-bottom: 8rem;
     }
 
     .form {
         margin-bottom: 3rem;
+    }
+
+    .form textarea {
+        margin-bottom: 0rem;
     }
 
     .footer-top {
@@ -166,13 +189,58 @@
     }
 
     .features-cards-row {
-        gap: 2rem;}
+        gap: 2rem;
+    }
+
+    .section-text {
+        color: #7d7878;
+        font-weight: 500;
+        font-size: 2.2rem;
+    }
+
+    .experts-main-row {
+        margin-bottom: 5rem;
+    }
+
+    .footer-contacts {
+        align-items: center;
+    }
+
+    .form {
+        margin-bottom: 0;
+    }
+
+    .experts-margin {
+        margin-top: 2rem;
+    }
+
+    .features-left {
+        margin-top: 2rem;
+    }
+
+    footer {
+        padding: 2rem 3rem;
+    }
+
+    .footer-connect-service-col {
+        gap: 1.2rem;
+    }
+
+    .footer-contacts {
+        gap: 1.5rem;
+    }
+
+    .btn {
+        width: 25rem;
+    }
+
+
 }
 
 /* adjustment for features-card-row and testimonial section */
 @media only screen and (max-width: 666px) {
     .features-cards-row {
-        gap: 3rem;
+        gap: 1.5rem;
     }
 
     .features-card {
@@ -183,7 +251,9 @@
     }
 
     h4 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: center;
     }
 
     .testimonial-div-row {
@@ -191,28 +261,85 @@
     }
 
     .avatar {
-        width: 8rem;
-        height: 8rem;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    header {
+        padding: 4rem 3rem 1rem 3rem;
     }
 }
 
 /* adjustment for contact-us form-element */
 @media only screen and (max-width: 550px) {
-.form-element {
+    .form-element {
         flex-direction: column;
-    }}
+    }
 
     h5 {
         font-size: 2rem;
     }
 
+    .logo-ubrania-1 {
+        display: none;
+    }
+
+    header {
+        padding: 4rem 5rem 1rem 5rem;
+    }
+
+    .features-cards-row {
+        margin-bottom: 3rem;
+    }
+
+    .experts-main-row {
+        margin-bottom: 3rem;
+    }
+
+    .footer-top {
+        gap: 2.5rem;
+    }
+
+    .form{
+        padding: 2rem;
+    }
+
+    }
 
 /* adjustment for testimonial section row->col */
 @media only screen and (max-width: 460px) {
     .testimonial-div-row {
         flex-direction: column;
     }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    .text-center {
+        margin-bottom: 5rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-connect-service-col {
+    margin-bottom: 1rem;
+   }
+
+   .features-card {
+    gap: 1.5rem;
+    padding: 2rem 3rem;
+   }
 }
+
 
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
@@ -223,19 +350,10 @@
     }
 
     .section {
-        padding: 3rem 3rem;
+        padding: 1.5rem 3rem;
     }
 
-    .avatar {
-        width: 7rem;
-        height: 7rem;
-    }
-
-    h3 {
-        font-size: 4rem;
-    }
-
-    h5 {
+            h5 {
         font-size: 2rem;
     }
 
@@ -244,7 +362,7 @@
         flex: 0 0 calc(32% - 1rem);
     }
 
-        .footer-connect-service-col {
+    .footer-connect-service-col {
         margin-left: 1.5rem;
         gap: 1.5rem;
     }
@@ -253,7 +371,7 @@
         gap: 1.5rem;
         margin-left: 1.5rem;
     }
-  
+
     .footer-connect-service-col {
         margin-left: 0;
         margin-right: 1.5rem;
@@ -263,5 +381,39 @@
         margin-left: 0;
     }
 
+        .features-left {
+        margin-bottom: 3rem;
+    }
+    .experts-margin {
+        margin-bottom: 3rem;
+    }
 
+    .experts-main-row {
+        margin-bottom: 2rem;
+    }
+
+        .promo p {
+        margin: 8rem auto;
+    }
+
+    .hero-content-col p {
+        margin-bottom: 4rem;
+    }
+
+        .hero-container-row {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+        .text-center {
+        margin-bottom: 3rem;
+    }
+
+    .section-container-col {
+    gap: 1rem;
+}
+
+.features-card p {
+    font-size: 2.12rem;
+}
 }

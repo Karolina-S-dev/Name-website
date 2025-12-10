@@ -174,6 +174,7 @@ header img {
     font-size: 3.5rem;
     text-align: center;
     margin: 15rem auto;
+    padding: 0 5rem 0 5rem;
 }
 
 .promo-gradient {
@@ -329,8 +330,8 @@ h4 {
 }
 
 .avatar {
-    width: 12rem;
-    height: 12rem;
+    width: 13rem;
+    height: 13rem;
     background: #fff;
     border-radius: 50%;
 }
@@ -434,8 +435,8 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    max-width: 130rem;
-}
+    max-width: 70rem;
+    }
 
 .footer-connect-service-col {
     display: flex;
@@ -444,6 +445,7 @@ footer {
     align-items: flex-start;
     gap: 2rem;
     margin-bottom: 4rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .footer-connect-service-col p {
@@ -457,7 +459,8 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3rem;
-    color: #fff;
+   color: #ffffffd0;
+    font-weight: 600;
 }
 
 .footer-item {
