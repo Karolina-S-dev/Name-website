@@ -10,6 +10,10 @@
         padding: 4rem 5rem 5rem 5rem;
     }
 
+    .btn {
+        max-width: 25rem;
+    }
+
     .section {
         padding: 5rem 3rem;
     }
@@ -22,32 +26,20 @@
         font-size: 5.5rem;
     }
 
-    .hero-buttons {
-        gap: 3rem;
-    }
-
     .hero-buttons .btn-outline,
     .hero-buttons .btn-full {
-        height: 7.5rem;
+        max-height: 7.5rem;
     }
 
     .promo p {
         margin: 8rem auto;
     }
 
-    .form {
-        margin-bottom: 15rem;
-    }
-
-    .footer-connect-service-row {
-        max-width: 70rem;
-    }
-
     .features-left {
         margin-bottom: 10rem;
     }
 
-    .experts-margin {
+    .delivered-margin-bottom {
         margin-bottom: 10rem;
     }
 
@@ -57,6 +49,19 @@
 
     .text-center {
         margin-bottom: 8rem;
+    }
+
+    .form {
+        margin-bottom: 15rem;
+    }
+
+    .form img {
+        max-width: 3rem;
+        max-height: 3rem;
+    }
+
+    .footer-connect-service-row {
+        max-width: 70rem;
     }
 }
 
@@ -69,16 +74,20 @@
     }
 
     header {
-        padding: 4rem 5rem 5rem 5rem;
+        padding: 4rem 5rem 1rem 5rem;
     }
 
     h1 {
         font-size: 5rem;
     }
 
+    .section {
+        padding: 4rem 3rem;
+    }
+
     .hero-container-row {
         flex-direction: column;
-        gap: 7rem;
+        gap: 5rem;
     }
 
     .hero-content-col {
@@ -86,7 +95,26 @@
     }
 
     .hero-content-col p {
-        margin-bottom: 9rem;
+        margin-bottom: 7rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        gap: 7rem;
+    }
+
+    .hero-buttons .btn-outline,
+    .hero-buttons .btn-full {
+        max-height: 8.5rem;
+        max-width: 28rem;
+    }
+
+    .features-left {
+        margin-bottom: 8rem;
+    }
+
+    .features-cards-row {
+        margin-bottom: 5rem;
     }
 
     .features-card {
@@ -94,17 +122,37 @@
         height: 32rem;
     }
 
-    .experts-main-row {
+    .delivered-margin-bottom {
         margin-bottom: 8rem;
+    }
+
+    .experts-main-row {
+        margin-bottom: 6rem;
     }
 
     .experts-card {
         max-height: 45rem;
-        flex: 0 0 calc(32% - 3rem);
+        flex: 0 0 calc(33% - 2rem);
     }
 
     .form {
-        margin-bottom: 12rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .logo-row {
+        align-self: flex-start;
+    }
+
+    .footer-contacts {
+        gap: 1.5rem;
+        margin-left: 3rem;
+        align-items: center;
     }
 
     .footer-connect-service-col {
@@ -113,19 +161,6 @@
 
     h5 {
         font-size: 2.5rem;
-    }
-
-    .footer-contacts {
-        gap: 2rem;
-        margin-left: 3rem;
-    }
-
-    .footer-top {
-        margin-bottom: 3rem;
-    }
-
-    .experts-margin {
-        margin-bottom: 8rem;
     }
 }
 
@@ -137,59 +172,13 @@
         font-size: 7px;
     }
 
-    header {
-        padding: 4rem 5rem 3rem 5rem;
-    }
-
-    .logo-row {
-        margin-right: 2rem;
-    }
-
-    .section {
-        padding: 3rem 3rem;
-    }
-
-    .hero-content-col p {
-        margin-bottom: 7rem;
-    }
-
-    .promo p {
-        margin: 10rem auto;
-    }
-
-    .testimonial-div-col {
-        padding: 2rem 2rem;
-    }
-
-    .features-left {
-        text-align: left;
-        margin-bottom: 8rem;
-    }
-
-    .form {
-        margin-bottom: 3rem;
-    }
-
-    .form textarea {
-        margin-bottom: 0rem;
-    }
-
-    .footer-top {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .logo-row {
-        align-self: flex-start;
-    }
-
     .logo-row img {
         width: 7rem;
         height: auto;
     }
 
-    .features-cards-row {
-        gap: 2rem;
+    .section {
+        padding: 3rem 3rem;
     }
 
     .section-text {
@@ -198,49 +187,41 @@
         font-size: 2.2rem;
     }
 
+    .testimonial-div-col {
+        padding: 3rem 2rem;
+    }
+
+    .features-cards-row {
+        gap: 2rem;
+    }
+
     .experts-main-row {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
-    .footer-contacts {
-        align-items: center;
-    }
-
-    .form {
-        margin-bottom: 0;
-    }
-
-    .experts-margin {
-        margin-top: 2rem;
-    }
-
-    .features-left {
-        margin-top: 2rem;
+    .form textarea {
+        margin-bottom: 0rem;
     }
 
     footer {
-        padding: 2rem 3rem;
+        padding: 1rem 3rem;
     }
 
     .footer-connect-service-col {
         gap: 1.2rem;
     }
 
-    .footer-contacts {
-        gap: 1.5rem;
-    }
-
-    .btn {
-        width: 25rem;
-    }
-
-
 }
 
-/* adjustment for features-card-row and testimonial section */
+/* adjustment for features-card-row && testimonial section && avatar size */
 @media only screen and (max-width: 666px) {
-    .features-cards-row {
-        gap: 1.5rem;
+
+    header {
+        padding: 4rem 3rem 1rem 3rem;
+    }
+
+    .testimonial-div-row {
+        gap: 3rem;
     }
 
     .features-card {
@@ -250,14 +231,15 @@
         min-height: auto;
     }
 
+    .features-card p {
+        text-align: center;
+        max-width: 42rem;
+    }
+
     h4 {
         font-size: 2.5rem;
         font-weight: 500;
         text-align: center;
-    }
-
-    .testimonial-div-row {
-        gap: 3rem;
     }
 
     .avatar {
@@ -265,81 +247,64 @@
         height: 11rem;
     }
 
-    header {
-        padding: 4rem 3rem 1rem 3rem;
-    }
 }
 
-/* adjustment for contact-us form-element */
+/* adjustment for features-cards & form-element */
 @media only screen and (max-width: 550px) {
-    .form-element {
-        flex-direction: column;
-    }
-
-    h5 {
-        font-size: 2rem;
-    }
-
-    .logo-ubrania-1 {
-        display: none;
-    }
-
-    header {
-        padding: 4rem 5rem 1rem 5rem;
-    }
 
     .features-cards-row {
         margin-bottom: 3rem;
     }
 
-    .experts-main-row {
-        margin-bottom: 3rem;
-    }
-
-    .footer-top {
-        gap: 2.5rem;
-    }
-
-    .form{
+    .form {
         padding: 2rem;
     }
 
-    }
-
-/* adjustment for testimonial section row->col */
-@media only screen and (max-width: 460px) {
-    .testimonial-div-row {
+    .form-element {
         flex-direction: column;
     }
 
+}
+
+/* headings font size change & testimonial row->col & footer-bottom row->col & spacings */
+@media only screen and (max-width: 460px) {
+
     h2 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     h3 {
         font-size: 4rem;
     }
 
+    .testimonial-div-row {
+        flex-direction: column;
+    }
+
+    .logo-ubrania-1 {
+        display: none;
+    }
+
+    .features-card {
+        gap: 1.5rem;
+        padding: 2rem 3rem;
+    }
+
     .text-center {
         margin-bottom: 5rem;
+    }
+
+    .footer-connect-service-col {
+        margin-bottom: 1rem;
     }
 
     .footer-bottom {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        color: #ffffffb3;
     }
-
-    .footer-connect-service-col {
-    margin-bottom: 1rem;
-   }
-
-   .features-card {
-    gap: 1.5rem;
-    padding: 2rem 3rem;
-   }
 }
-
 
 /* small mobile - phones*/
 @media only screen and (max-width: 400px) {
@@ -349,71 +314,53 @@
         font-size: 6px;
     }
 
+    .btn {
+        max-width: 22rem;
+        max-height: 6rem;
+    }
+
     .section {
         padding: 1.5rem 3rem;
-    }
-
-            h5 {
-        font-size: 2rem;
-    }
-
-    .experts-card {
-        max-height: 45rem;
-        flex: 0 0 calc(32% - 1rem);
-    }
-
-    .footer-connect-service-col {
-        margin-left: 1.5rem;
-        gap: 1.5rem;
-    }
-
-    .footer-contacts {
-        gap: 1.5rem;
-        margin-left: 1.5rem;
-    }
-
-    .footer-connect-service-col {
-        margin-left: 0;
-        margin-right: 1.5rem;
-    }
-
-    .footer-contacts {
-        margin-left: 0;
-    }
-
-        .features-left {
-        margin-bottom: 3rem;
-    }
-    .experts-margin {
-        margin-bottom: 3rem;
-    }
-
-    .experts-main-row {
-        margin-bottom: 2rem;
-    }
-
-        .promo p {
-        margin: 8rem auto;
     }
 
     .hero-content-col p {
         margin-bottom: 4rem;
     }
 
-        .hero-container-row {
-        flex-direction: column;
-        gap: 5rem;
-    }
-
-        .text-center {
-        margin-bottom: 3rem;
+    .hero-buttons .btn-outline,
+    .hero-buttons .btn-full {
+        max-height: 7rem;
     }
 
     .section-container-col {
-    gap: 1rem;
-}
+        gap: 1rem;
+    }
 
-.features-card p {
-    font-size: 2.12rem;
-}
+    .features-left {
+        margin-bottom: 3rem;
+    }
+
+    .features-card p {
+        font-size: 2.12rem;
+    }
+
+    .delivered-margin-bottom {
+        margin-bottom: 3rem;
+    }
+
+    .experts-main-row {
+        margin-bottom: 1rem;
+    }
+
+    .experts-card {
+        flex: 0 0 calc(33% - 1rem);
+    }
+
+    h5 {
+        font-size: 2.2rem;
+    }
+
+    .text-center {
+        margin-bottom: 3rem;
+    }
 }
