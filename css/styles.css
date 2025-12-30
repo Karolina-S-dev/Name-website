@@ -76,10 +76,13 @@ h6 {
 
 .btn:hover {
     border: 3px solid #88CDFF;
+    transition: 0.3s all;
 }
 
 .btn-full {
-    background: linear-gradient(to right, #88CDFF, #5755F9);
+    border: 3px solid transparent;
+    background: linear-gradient(to right, #88CDFF, #5755F9) border-box,
+    linear-gradient(to right, #88CDFF, #5755F9) padding-box;
 }
 
 .btn-outline {
