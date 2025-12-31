@@ -82,7 +82,7 @@ h6 {
 .btn-full {
     border: 3px solid transparent;
     background: linear-gradient(to right, #88CDFF, #5755F9) border-box,
-    linear-gradient(to right, #88CDFF, #5755F9) padding-box;
+        linear-gradient(to right, #88CDFF, #5755F9) padding-box;
 }
 
 .btn-outline {
@@ -317,12 +317,27 @@ h4 {
 
 .experts-main-row {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 160rem;
+    max-width: 140rem;
     margin-bottom: 12rem;
+    gap: 33px;
+    overflow-x: scroll;
+}
+
+/* webkit */
+.experts-main-row::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.experts-main-row::-webkit-scrollbar {
+    height: 11px;
+}
+
+.experts-main-row::-webkit-scrollbar-thumb {
+    background: #9aa4b2;
+    border-radius: 5px;
 }
 
 .experts-card {
